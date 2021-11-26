@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>San Francisco Senior High School</title>
+</head>
+<body>
+  <center>
+  <font color="001700" face="casual, sans-serif">
+    <h2>
+      Admission
+    </h2>
+  </font>
+  </center>
+  <font color="darkred" face="sans-serif">
+    <h3>
+      Reminders:
+    </h3>
+    <ol>
+      <b>
+        <li>Answer the form properly.</li>
+        <li>All questions are required to be answered.</li>
+        <li>Make sure to check your answers before submitting.</li>
+      </b>
+    </ol>
+  </font>
+  <font color="004400" face="sans-serif">
+  <form align="justify">
+    <label><h3>Track and Strand: </h3></label>
+    <input type="radio" value="abm strand" id="abm_strand" name="track_and_strand"><label for="abm_strand">Accountancy, Business & Management (ABM) - Academics</label>
+    <br><br>
+    <input type="radio" value="stem strand" id="stem_strand" name="track_and_strand"><label for="stem_strand">Science, Technology, Engineering, & Mathematics - Academic (STEM) - Academics</label>
+    <br><br>
+    <input type="radio" value="programming strand" id="programming_strand" name="track_and_strand"><label for="programming_strand">Programming - Technical-Vocational Livelihood</label>
+    <br><br>
+    <input type="radio" value="animation strand" id="animation_strand" name="track_and_strand"><label for="animation_strand">Animation - Technical-Vocational Livelihood</label>
+    <br>
+    <label for="students_information">
+      <h3>
+        Student's Information:
+      </h3>
+      <label for="students_name">
+        <h4>
+          Name:
+        </h4>
+        <input type="text" id="students_name" name="students_name" placeholder="Last Name, First Name, Middle Name" size="35">
+      </label>
+      <label for="students_birthdate">
+        <h4>
+          Date of Birth:
+        </h4>
+        <input type="date" id="students_birthdate" name="students_birthdate">
+      </label>
+      <label for="students_age">
+        <h4>
+          Age:
+        </h4>
+        <input type="number" id="students_age" name="students_birthdate" placeholder="Enter your age">
+      </label>
+      <label for="students_sex">
+        <h4>
+          Sex:
+        </h4>
+        <input type="radio" id="male" name="students_sex"><label for="male">Male</label>
+        <br><br>
+        <input type="radio" id="female" name="students_sex"><label for="female">Female</label>
+      </label>
+      <label for="students_address">
+        <h4>
+          Address:
+        </h4>
+        <input type="text" id="students_address" name="students_address" placeholder="Enter your address" size="35" maxlength="120">
+      </label>
+      <label for="students_lrn">
+        <h4>
+          LRN(If none type N/A):
+        </h4>
+        <input type="text" id="students_lrn" name="students_lrn" placeholder="Enter your LRN" size="35">
+      </label>
+    </label>
+    <label for="parents_and_guardian's_information">
+      <h3>
+        Parents' & Guardian's Information:
+      </h3>
+      <label for="mother_name">
+        <h4>
+          Mother's Name:
+        </h4>
+        <input type="text" name="mother_name" id="mother_name" placeholder="Last Name, First Name, Middle Name" size="35">
+      </label>
+      <label for="father_name">
+        <h4>
+          Father's Name:
+        </h4>
+        <input type="text" name="father_name" id="father_name" placeholder="Last Name, First Name, Middle Name" size="35">
+      </label>
+      <label for="guardian_name">
+        <h4>
+          Guardian's Name:
+        </h4>
+        <input type="text" name="guardian_name" id="guardian_name" placeholder="Last Name, First Name, Middle Name" size="35">
+      </label>
+      <label for="parents_contact_no.">
+        <h4>
+          Phone Number:
+        </h4>
+        <input type="tel" id="parents_contact_no." name="parents_contact_no." placeholder="09XX-XXX-XXXX" maxlength="11">
+      </label>
+    </label>
+    <br>
+    <br>
+    <center>
+      <input type="submit">
+    </center>
+  </form>
+  </font>
+</body>
+</html>
